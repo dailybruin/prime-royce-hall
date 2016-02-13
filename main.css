@@ -1,0 +1,56 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+h2 {
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-size: 2.5em;
+}
+
+h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+	color: #777;
+	text-transform: uppercase;
+	border-bottom: 1px solid #aaa;
+	margin-bottom: 1em;
+}
+
+.pull-quote-right, .pull-quote-left {
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-size: 1.3em;
+	width: 75%;
+}
+
+.pull-quote-left {
+	margin: 0 1em 1em -25%;
+	float: left;
+	padding-right: 1em;
+	text-align: right;
+	border-right: 1em solid #aaa;
+}
+
+.pull-quote-right {
+	margin: 0 -25% 1em 1em;
+	float: right;
+	padding-left: 1em;
+	text-align: left;
+	border-left: 1em solid #aaa;
+}
+
+@media only screen and (max-width: 40em) {
+	.pull-quote-right, .pull-quote-left {
+		margin: 0 0 1em 0;
+		width: 100%;
+		border-top: 1px solid #aaa;
+		border-bottom: 1px solid #aaa;
+		border-left: 0;
+		border-right: 0;
+		padding: 1em 0 1em 0;
+		text-align: center;
+	}
+}
