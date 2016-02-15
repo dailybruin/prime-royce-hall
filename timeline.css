@@ -48,10 +48,10 @@
   width: 2px;
   bottom: 0;
   position: absolute;
-  top: 160px;
+  top: 0px;
   left: 50%;
   z-index: -5;
-  height: 6000px;
+  height: 4000px;
 }
 
 /*------------------------------------
