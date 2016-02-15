@@ -25,6 +25,12 @@ h3 {
 	background-repeat: no-repeat;
 }
 
+#nav {
+	background-image: url('imgs/royce-inside.jpg'); 
+	background-size: cover; 
+	background-repeat: no-repeat;
+}
+
 .pull-quote-right, .pull-quote-left {
 	font-family: 'Playfair Display', serif;
 	font-weight: 400;
