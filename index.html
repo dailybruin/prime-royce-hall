@@ -4,20 +4,36 @@
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.1.2/foundation.min.css">
 	<link rel="stylesheet" type="text/css" href="main.css">
+	<script src="main.js"></script>
 
     <!-- jQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
-    <!-- Scrollify -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/0.1.12/jquery.scrollify.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/0.1.12/jquery.scrollify.js"></script>
+    <script>
+    $(function() {
+		$.scrollify({
+			section : "section",
+		});
+	});
+    </script>
 </head>
 <body>
+	<div class="scrollify">
 	<a href="klain.html">Klain</a>
 	<a href="wodinsky.html">Wodinsky</a>
 	<a href="jarvis.html">Jarvis</a>
 	<a href="henson.html">Henson</a>
+	<section> Section 1 </section>
+	<section> Section 2 </section>
+	<section> Section 3 </section>
+	<section> Section 4 </section>
+	</div>
 </body>
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.1.2/foundation.min.js"></script>
+
+<!-- Scrollify -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="jquery.scrollify.js"></script>
+
 </html>
