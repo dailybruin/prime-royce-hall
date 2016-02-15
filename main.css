@@ -31,6 +31,11 @@ h3 {
 	background-repeat: no-repeat;
 }
 
+#prime {
+	margin-left: 1rem;
+	max-width: 15%;
+}
+
 .pull-quote-right, .pull-quote-left {
 	font-family: 'Playfair Display', serif;
 	font-weight: 400;
