@@ -19,6 +19,12 @@ h3 {
 	margin-bottom: 1em;
 }
 
+#headersection {
+	background-image: url('imgs/royce-front.jpg'); 
+	background-size: cover; 
+	background-repeat: no-repeat;
+}
+
 .pull-quote-right, .pull-quote-left {
 	font-family: 'Playfair Display', serif;
 	font-weight: 400;
