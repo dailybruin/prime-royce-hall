@@ -3,6 +3,10 @@ body {
 	font-weight: 300;
 }
 
+p {
+	font-weight: 300;
+}
+
 .top-bar {
 	padding: 0rem;
 	background: rgba(0,0,0,0.5) !important;
@@ -47,6 +51,10 @@ h3 {
 	text-transform: uppercase;
 	border-bottom: 1px solid #aaa;
 	margin-bottom: 1em;
+}
+
+.top {
+	margin-top: 5em;
 }
 
 #headersection {
