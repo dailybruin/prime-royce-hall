@@ -34,6 +34,7 @@
   text-align:center;
   line-height:156px;
   font-size: 250%;
+  font-family: 'Roboto', sans-serif;
   color: white;
 
 }
@@ -54,10 +55,14 @@
   height: 4000px;
 }
 
+.figure {
+  figcaption: "test";
+}
 /*------------------------------------
  medium timeline styles
 ------------------------------------*/
-@media only screen and (max-width: 800px) and (min-width: 768px) {
+/* removed max-width: 800 */;
+@media only screen and (min-width: 768px) {
   .line {
     display: none !important;
   }
