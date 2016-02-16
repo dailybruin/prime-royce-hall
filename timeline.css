@@ -56,19 +56,19 @@
 
 
 .path-container .line {
-  background: #ddd;
+  background: #BBBBBB;
   width: 2px;
   bottom: 0;
   position: absolute;
   top: 0px;
   left: 50%;
-  z-index: -5;
+  z-index: -1;
   height: 5000px;
 }
 
 button {
-  color: #0c4d78;
-}
+  color: white;
+  background-color: #ffb300;
 
 
 
