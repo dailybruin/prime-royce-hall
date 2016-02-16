@@ -1,10 +1,13 @@
 /*------------------------------------
  timeline styles
 ------------------------------------*/
+
 .path-container {
   margin-top: 50px;
   margin-bottom: 70px;
+  text-align: center;
 }
+/*
 .path-container .path-item h1 {
   text-align: center;
   margin-bottom: 70px;
@@ -13,15 +16,19 @@
   margin-bottom: 10px;
   line-height: 1.15;
 }
+*/
 .path-container .path-item p {
   font-size: emCalc(16px);
   line-height: 1.7;
   margin-bottom: 25px;
 }
+
+/*
 .path-container .path-item a {
   font-weight: bold;
   font-size: emCalc(14px);
 }
+*/
 .path-container .path-item .circle {
   background-color: #333366;
   background-size: 156px 156px;
@@ -29,7 +36,9 @@
   width: 156px;
   height: 156px;
   position: relative;
-  margin-bottom: 180px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+
   z-index: 2;
   text-align:center;
   line-height:156px;
@@ -38,12 +47,8 @@
   color: white;
 
 }
-.path-container .path-item .circle.circle-left {
-  left: -7px;
-}
-.path-container .path-item .circle.circle-right {
-  right: -10px;
-}
+
+
 .path-container .line {
   background: #ddd;
   width: 2px;
@@ -59,13 +64,13 @@ button {
   color: #0c4d78;
 }
 
-figcaption {
-  text-transform: uppercase;
-}
+
+
 /*------------------------------------
  medium timeline styles
 ------------------------------------*/
 /* removed max-width: 800 */;
+/*
 @media only screen and (min-width: 768px) {
   .line {
     display: none !important;
@@ -95,9 +100,12 @@ figcaption {
     left: 0px !important;
   }
 }
+
 /*------------------------------------
  mobile timeline styles
 ------------------------------------*/
+
+/*
 @media only screen and (max-width: 767px) {
   .path-container {
     text-align: center;
@@ -113,3 +121,4 @@ figcaption {
     margin-right: auto;
   }
 }
+*/
