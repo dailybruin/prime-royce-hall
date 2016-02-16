@@ -23,6 +23,11 @@
   margin-bottom: 25px;
 }
 
+.path-text {
+  background-color: white;
+}
+
+
 /*
 .path-container .path-item a {
   font-weight: bold;
@@ -30,7 +35,7 @@
 }
 */
 .path-container .path-item .circle {
-  background-color: #333366;
+  background-color: #3284BF;
   background-size: 156px 156px;
   border-radius: 50%;
   width: 156px;
@@ -38,7 +43,8 @@
   position: relative;
   margin-bottom: 50px;
   margin-top: 50px;
-
+  margin-left: auto;
+  margin-right: auto;
   z-index: 2;
   text-align:center;
   line-height:156px;
@@ -57,7 +63,7 @@
   top: 0px;
   left: 50%;
   z-index: -5;
-  height: 4000px;
+  height: 5000px;
 }
 
 button {
