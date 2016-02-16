@@ -3,6 +3,36 @@ body {
 	font-weight: 300;
 }
 
+.top-bar {
+	padding: 0rem;
+	background: rgba(0,0,0,0.5) !important;
+}
+
+.top-bar li, .top-bar li a {
+	background: rgba(0,0,0,0) !important;
+}
+
+.top-bar li a:hover {
+	background: rgba(0,0,0,0.5) !important;
+}
+
+.top-bar-section ul li>a {
+	font-family: 'Roboto', sans-serif !important;
+	font-weight: 400 !important;
+}
+
+#profile-links li>a {
+	font-weight: 300 !important;
+}
+
+.name img {
+	height: 40px;
+}
+
+.top-bar ul {
+	background-color: transparent;
+}
+
 h2 {
 	font-family: 'Playfair Display', serif;
 	font-weight: 400;

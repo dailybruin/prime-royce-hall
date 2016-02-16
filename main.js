@@ -5,4 +5,11 @@ $(document).ready(function() {
         continuousVertical: false,
         slidesNavigation: true
     });
+    $('#profile-links').hide();
 });
+
+
+
+function expand() {
+	$('#profile-links').toggle('slow');
+}
