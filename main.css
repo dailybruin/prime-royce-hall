@@ -80,9 +80,24 @@ h4 b {
 	text-align: center;
 }
 
+.intro:hover {
+	background-color: rgba(255,255,255,1);
+}
+
 .intro p {
-	font-size: 0.9rem !important;
+	font-size: 0.85rem !important;
 	color: black;
+}
+
+#down {
+	margin-top: 0.5em;
+	height: 4rem;
+	width: 4rem;
+	padding: 1rem;
+	border-radius:50%;
+	background: transparent;
+	border: 2px solid #fff;
+	font-size: 2em;
 }
 
 hr {
@@ -120,6 +135,10 @@ hr {
 .instruction a {
 	color: #fff;
 	font-weight: 700;
+}
+
+.instruction a:hover {
+	text-decoration: underline;
 }
 
 .link {
