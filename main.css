@@ -63,15 +63,18 @@ h3 {
 	background-repeat: no-repeat;
 }
 
+#fullpage #left{
+	text-align: left;
+}
+
+#fullpage #right{
+	text-align: right;
+}
+
 #nav {
 	background-image: url('http://dailybruin.com/images/2016/02/royce-inside.jpg'); 
 	background-size: cover; 
 	background-repeat: no-repeat;
-}
-
-#prime {
-	margin-left: 1rem;
-	max-width: 15%;
 }
 
 .pull-quote-right, .pull-quote-left {
