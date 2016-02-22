@@ -13,6 +13,10 @@ p {
 	margin: 0 auto;
 }
 
+.row {
+	max-width: 80rem;
+}
+
 table {
 	border: none;
 	background-color: transparent;
@@ -91,6 +95,10 @@ h4 b {
 	text-align: center;
 }
 
+.intro p {
+	font-weight: 400;
+}
+
 .intro:hover {
 	background-color: rgba(0,0,0,0.5);
 }
@@ -100,15 +108,12 @@ h4 b {
 	color: #fff;
 }
 
-#down {
+.down, .down:hover, .down:active, .down:visited, .down:focus {
 	margin-top: 0.5em;
-	height: 4rem;
-	width: 4rem;
-	padding: 1rem;
-	border-radius:50%;
 	background: transparent;
-	border: 2px solid #fff;
-	font-size: 2em;
+	border: 0;
+	font-size: 3rem;
+	color: #fff;
 }
 
 .intro hr {
@@ -155,10 +160,10 @@ h4 b {
 	background-color: rgba(255,255,255,0.7);
 	padding: 1em;
 	margin-bottom: 1em;
-	height: 11.5em;
+	height: 8.7em;
 	font-family: 'Playfair Display', serif;
 	font-weight: 400;
-	font-size: 1.2em;
+	font-size: 1em;
 	color: #000;
 }
 
