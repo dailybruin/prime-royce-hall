@@ -7,17 +7,6 @@ p {
 	font-weight: 300;
 }
 
-.feature-head {
-	width: 90%;
-	display: block;
-	margin: 0 auto;
-}
-
-table {
-	border: none;
-	background-color: transparent;
-}
-
 .top-bar {
 	padding: 0rem;
 	background: rgba(0,0,0,0.5) !important;
@@ -73,46 +62,57 @@ h3 {
 }
 
 h4 {
-	color: #ccc;
+	color: #777;
 	font-weight: 400;
 	font-size: 0.9em;
 	margin-bottom: 0.2rem;
 }
 
 h4 b {
-	color: #fff;
+	color: #000;
 	font-weight: 400;
 	text-transform: uppercase;
 }
 
 .intro {
-	background-color: rgba(0,0,0,0.4);
+	background-color: rgba(255,255,255,0.9);
 	padding: 1em;
 	text-align: center;
 }
 
 .intro:hover {
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(255,255,255,1);
 }
 
 .intro p {
 	font-size: 0.85rem !important;
-	color: #fff;
+	color: black;
 }
 
 #down {
-	margin-top: 0.5em;
-	height: 4rem;
-	width: 4rem;
+	margin-top: .25em;
+	height: 3rem;
+	width: 3rem;
 	padding: 1rem;
 	border-radius:50%;
 	background: transparent;
 	border: 2px solid #fff;
-	font-size: 2em;
+	font-size: 1em;
 }
 
-.intro hr {
-	border-color: white;
+#up {
+	margin-top: .25em;
+	height: 3rem;
+	width: 3rem;
+	padding: 1rem;
+	border-radius:50%;
+	background: transparent;
+	border: 2px solid #fff;
+	font-size: 1em;
+}
+
+hr {
+	border-color: black;
 }
 
 .top {
@@ -123,6 +123,7 @@ h4 b {
 	background-image: url('http://dailybruin.com/images/2016/02/royce-front.jpg'); 
 	background-size: cover; 
 	background-repeat: no-repeat;
+	color: white;
 }
 
 
