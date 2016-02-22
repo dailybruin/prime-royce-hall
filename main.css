@@ -108,7 +108,7 @@ h4 b {
 	color: #fff;
 }
 
-.down, .down:hover, .down:active {
+.down, .down:hover, .down:active, .down:visited {
 	margin-top: 0.5em;
 	background: transparent;
 	border: 0;
