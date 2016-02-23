@@ -225,3 +225,28 @@ h4 b {
 	background-color: #0078A0;
 	}
 }
+
+#danger-zone {
+  background-image: url("images/royce-outside-2.jpg");
+  background-size: 100% 100%;
+  position: fixed;
+  margin-left:0;
+  margin-right:0;
+  margin-bottom:0;
+  margin-top:0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index:-1000;
+}
+
+#backbar {
+	z-index: -1000;
+	margin-top: 0px;
+	width: 100%;
+	height: 400px;
+	position: absolute;
+	background-color: black;
+	opacity: .6;
+}
+

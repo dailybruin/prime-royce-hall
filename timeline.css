@@ -2,6 +2,10 @@
  timeline styles
 ------------------------------------*/
 
+h3 {
+  padding-top: 1em;
+}
+
 .path-container {
   margin-top: 50px;
   margin-bottom: 70px;
@@ -21,10 +25,11 @@
   font-size: emCalc(16px);
   line-height: 1.7;
   margin-bottom: 25px;
+  font-weight: 400;
 }
 
 .path-text {
-  background-color: white;
+  background-color: transparent;
 }
 
 
@@ -77,60 +82,21 @@ button:hover {
 
 }
 
-
-/*------------------------------------
- medium timeline styles
-------------------------------------*/
-/* removed max-width: 800 */;
-/*
-@media only screen and (min-width: 768px) {
-  .line {
-    display: none !important;
-  }
-
-  .large-5.columns.path-text {
-    width: 70%;
-    right: 0;
-    margin-left: 15px;
-  }
-
-  .path-item .large-7 {
-    width: 25%;
-  }
-
-  .push-5 {
-    left: 0;
-    float: right;
-  }
-
-  .circle-right {
-    float: left;
-    right: 0px !important;
-  }
-
-  .circle-left {
-    left: 0px !important;
-  }
+.path-textBackground {
+  margin-left: -1em;
+  margin-right:0;
+  margin-top:0;
+  margin-bottom:0;
+  height:100%;
+  width:100%;
+  z-index: -100;
+  opacity: 1;
+  position:absolute;
+  background-color: white;
 }
 
-/*------------------------------------
- mobile timeline styles
-------------------------------------*/
-
-/*
-@media only screen and (max-width: 767px) {
-  .path-container {
-    text-align: center;
-  }
-  .path-container .circle {
-    top: 0;
-    right: 0;
-    left: 0;
-    float: none;
-    margin-bottom: 30px !important;
-    margin-top: 60px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+.path-text p {
+  margin-left: 1em;
+  padding-right: 1em;
 }
-*/
+
