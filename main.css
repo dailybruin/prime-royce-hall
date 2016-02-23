@@ -109,7 +109,8 @@ h4 b {
 }
 
 .down, .down:hover, .down:active, .down:visited, .down:focus {
-	margin-top: 0.5em;
+	margin-top: 0em;
+	margin-bottom: 0em;
 	background: transparent;
 	border: 0;
 	font-size: 3rem;
